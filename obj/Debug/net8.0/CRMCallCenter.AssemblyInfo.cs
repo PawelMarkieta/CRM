@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRMCallCenter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4eae6f3285570ea12d17d6847c2bb6133f6810ce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8acc63acc316d3a4505ad30c3c06530ae44604e9")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRMCallCenter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRMCallCenter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

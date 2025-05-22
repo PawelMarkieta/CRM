@@ -9,10 +9,8 @@ namespace CRMCallCenter.Data
     {
         public ApplicationDbContext CreateDbContext(string[] args)
         {
-            Console.WriteLine("Wchodzi do klasy");
 
             var basePath = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory()));
-            Console.WriteLine($"BasePath: {basePath}");
 
             IConfigurationRoot configuration = new ConfigurationBuilder()
                 .SetBasePath(basePath) // 👈 to ważne
