@@ -69,9 +69,9 @@ CRMCallCenter/
 ## Jak uruchomić projekt
 
 1. Sklonuj repo:
-   ```bash
    git clone https://github.com/twoj-login/CRMCallCenter.git
    cd CRMCallCenter
+
 2. Skonfiguruj appsettings.json:
 	Połączenie do PostgreSQL
 	Klucz JWT (min. 128 bitów!)
