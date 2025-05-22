@@ -1,9 +1,11 @@
 ﻿using CRMCallCenter.Models.Klienci;
 using CRMCallCenter.Models.Uzytkownicy;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CRMCallCenter.Models.Transakcje
 {
-    public enum EtapTransakcji
+    public enum Status
     {
         Lead,
         Skontaktowano,
@@ -12,23 +14,22 @@ namespace CRMCallCenter.Models.Transakcje
         Podpisana,
         Utracona
     }
+
     public class Transakcja
     {
         public int Id { get; set; }
         public int KlientId { get; set; }
         public Klient Klient { get; set; }
         
-        public int ProduktId { get; set; }
-        public Produkt Produkt { get; set; }
+        public int UzytkownikId { get; set; }
+        public Uzytkownik Uzytkownik { get; set; }
 
-        public int UtworzonaPrzezId { get; set; }
-        public Uzytkownik UtworzonaPrzez { get; set; }
-
-        public EtapTransakcji Etap { get; set; }
+        public Status Status { get; set; }
         public DateTime DataUtworzenia { get; set; } = DateTime.UtcNow;
-        public DateTime? DataPodpisania { get;set; }
+        public decimal Kwota {  get; set; }
+        public string? Opis { get; set; }
 
-        public bool CzyZdalna {  get; set; }
+        public bool CzyNaMiejscu {  get; set; } //true = u klienta, false = zdalnie
 
     }
 }
