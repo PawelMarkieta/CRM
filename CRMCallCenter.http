@@ -1,0 +1,6 @@
+@CRMCallCenter_HostAddress = http://localhost:5221
+
+GET {{CRMCallCenter_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
