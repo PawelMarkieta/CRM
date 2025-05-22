@@ -1,0 +1,49 @@
+## build output
+bin/
+obj/
+out/
+
+## User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## VS Code
+.vscode/
+
+## Visual Studio
+.vs/
+
+## Rider
+.idea/
+
+## NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Logs
+*.log
+
+## Database local settings
+*.db
+*.mdf
+*.ldf
+
+## EF Migrations build snapshots
+Migrations/*Designer.cs
+Migrations/*ModelSnapshot.cs
+
+## JWT or sensitive config secrets (tylko jeœli stosujesz secrets.json)
+secrets.json
+
+## OS system files
+.DS_Store
+Thumbs.db
+desktop.ini
